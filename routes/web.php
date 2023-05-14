@@ -13,7 +13,6 @@ use App\Http\Controllers\PessoaController;
 |
 */
 
-
 Route::get('/', [PessoaController::class, 'index']) -> name('index');
 
 Route::post('/resultado', [PessoaController::class, 'gravarDados']) -> name('resultado');

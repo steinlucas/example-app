@@ -88,6 +88,14 @@
             </div>
         </div> <!-- row -->
 
+
+        @if (session('resultado'))
+        <div class="alert alert-success">
+        Resultado: {{ session('resultado') }}
+        </div>
+    @endif
+
+
         <br>
 
         <button type="reset">Limpar</a>
